@@ -8,7 +8,7 @@ import { Nav, NavDropdown, NavLink, Navbar } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Container>
+        <Container className='mt-4'>
           <div className='text-center'>
           <img src={logo} alt="" />
            <p><small className='text-secondary'>Journalism Without Fear or Favour</small></p>
