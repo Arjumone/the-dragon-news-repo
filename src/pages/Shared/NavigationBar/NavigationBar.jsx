@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaUserCircle } from 'react-icons/fa';
@@ -13,11 +13,11 @@ const NavigationBar = () => {
             <Navbar collapseOnSelect variant='light' bg="light" expand="lg">
       <Container>
         
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
             <Nav className='mx-auto'>
-              <Link to='/'>Home</Link>
+              <Link to='/category/0'>Home</Link>
             </Nav>
             <Nav.Link href="#link">About</Nav.Link>
             <Nav.Link href="#link">Career</Nav.Link>
